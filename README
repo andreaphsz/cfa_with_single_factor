@@ -1,0 +1,10 @@
+### CFA with a single factor
+
+## Fit values for a CFA with a single factor can only be computed
+## with models with  more than 3 observed variables.
+## With 3 obeserved variables and one factor you have to compute 6 free
+## parameters (with one fixed). But your covariance matrix has also 6
+## nonredundant elements. Hence you get df=0 degress of freedom.
+## A chi-squared distribution with df=0 is constant 0, hence we
+## can expect the test statistic to be 0.
+
